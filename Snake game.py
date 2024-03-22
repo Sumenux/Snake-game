@@ -82,9 +82,9 @@ def move():
 
 
 wn.listen()
-wn.onkeypress(group, "z")
+wn.onkeypress(group, "w")
 wn.onkeypress(godown, "s")
-wn.onkeypress(goleft, "q")
+wn.onkeypress(goleft, "a")
 wn.onkeypress(goright, "d")
 
 segments = []
